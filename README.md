@@ -1,27 +1,56 @@
-# Docsify-Guide
-> 🐱‍🏍Docsify使用指南，使用Typora+Docsify打造最强、最快捷、最轻量级的个人&团队文档。
+# vita
+> 🐱‍🏍使用Typora+Docsify打造最强、最快捷、最轻量级的个人文档。
 
-## Docsify使用教程
-- [docsify-github地址](https://github.com/docsifyjs/docsify/#showcase)
-- [docsify快速开始-官方教程](https://docsify.js.org/#/zh-cn/quickstart)
-- [使用开源文档工具docsify，用写博客的姿势写文档](https://www.cnblogs.com/throwable/p/13605289.html)
-- [Docsify使用指南（打造最强、最轻量级的个人&团队文档）](https://www.cnblogs.com/Can-daydayup/p/15413267.html)
+## 关于我
+- [myhalo博客地址](http://47.107.122.43:8023/) 
 
-## Docsify部署教程
-- [Docsify部署IIS](https://www.cnblogs.com/Can-daydayup/p/15779788.html)
-- [GitHub Pages](https://docsify.js.org/#/zh-cn/deploy?id=github-pages)
-- [GitLab Pages](https://docsify.js.org/#/zh-cn/deploy?id=gitlab-pages)
-- [Gitee Pages](https://docsify.js.org/#/zh-cn/deploy?id=gitee-pages)
-- [Docker](https://docsify.js.org/#/zh-cn/deploy?id=docker)
-- [Firebase 主机](https://docsify.js.org/#/zh-cn/deploy?id=firebase-主机)
-- [VPS](https://docsify.js.org/#/zh-cn/deploy?id=vps)
-- [Netlify](https://docsify.js.org/#/zh-cn/deploy?id=netlify)
-- [ZEIT Now](https://docsify.js.org/#/zh-cn/deploy?id=zeit-now)
-- [AWS Amplify](https://docsify.js.org/#/zh-cn/deploy?id=aws-amplify)
-- [官方docsify部署教程](https://docsify.js.org/#/zh-cn/deploy)
-- [30分钟使用Docsify+Github Pages搭建个人博客 ](https://www.cnblogs.com/Can-daydayup/p/15779888.html)
+## 个人简历
+## 个人信息
 
-![image-20211016011310154](images/image-20211016011310154.png)
+- **姓名:** 张三
+- **职位:** 软件工程师
+- **邮箱:** example@example.com
+- **电话:** +123456789
+- **LinkedIn:** [LinkedIn Profile](http://47.107.122.43:8023/) 
 
-![image-20211016011222107](images/image-20211016011222107.png)
+## 关于我
+
+我是一名具有多年经验的软件工程师，专注于 Web 开发和技术领导。我在多个项目中担任过技术负责人，并成功交付了多个复杂项目。
+
+## 工作经验
+
+### 高级软件工程师 - ABC公司
+**时间:** 2020年至今  
+- 领导开发团队，负责多个大型项目的开发。
+- 优化系统性能，提高用户体验。
+
+### 软件工程师 - XYZ公司
+**时间:** 2017年 - 2020年  
+- 参与多个项目，负责前端和后端开发。
+- 协助团队解决技术难题。
+
+## 教育背景
+
+### 计算机科学硕士 - 清华大学
+**时间:** 2015年 - 2017年  
+
+### 计算机科学学士 - 北京大学
+**时间:** 2011年 - 2015年  
+
+## 技能
+
+- Python
+- JavaScript
+- React
+- Node.js
+- Django
+- Git
+- AWS
+
+---
+
+版权所有 © 2024 张三
+
+![image-20211016011310154](https://wmimg.com/i/1119/2024/08/66cdc556d6c7a.jpg) 
+
 
