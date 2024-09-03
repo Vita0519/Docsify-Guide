@@ -1,11 +1,7 @@
-<!-- _sidebar.md --> 
-* 链接到我test
-  * [关于本人](http://47.107.122.43:8023/)  
-  * [Github地址](https://github.com/Vita0519) 
+<!-- _sidebar.md -->
 
-
-
-* 友情链接
-  * [Docsify](https://docsify.js.org/#/)
-  * [博客园](https://www.cnblogs.com/)
-  * [Markdown 基本语法](https://markdown.com.cn/basic-syntax/)
+* vita测试
+  * [Docsify使用指南](/ProjectDocs/Docsify使用指南.md) <!--注意这里是相对路径-->
+  * [Typora+Docsify快速入门](/ProjectDocs/Typora+Docsify快速入门.md)
+* Docsify部署
+  * [Docsify部署教程](/ProjectDocs/Docsify部署教程.md)
