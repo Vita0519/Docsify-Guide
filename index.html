@@ -78,6 +78,77 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script>
+  OML2D.loadOml2d({
+    models: [
+      {
+        path: 'https://model.oml2d.com/shizuku/shizuku.model.json',
+        position: [0, 100],
+        scale: 0.15,
+        volume: 1,
+        stageStyle: {
+          height: 450
+        }
+      },
+        {
+        path: 'https://model.oml2d.com/Senko_Normals/senko.model3.json',
+        position: [-40, 140],
+        scale: 0.08,
+        volume: 1,
+        stageStyle: {
+          height: 400
+        }
+      },
+      {
+        "path": "https://model.oml2d.com/HK416-1-normal/model.json",
+        "position": [-60, 80],
+        "scale": 0.06,
+        "volume": 1,
+        "stageStyle": {
+          "height": 450
+        }
+      }
+    ],
+    dockedPosition:"left",
+    // mobileDisplay: true,
+    mobileDisplay: true, // 初始状态为显示
+    menus: {
+      items: [
+        {
+          id: 'Rest',
+          icon: 'icon-rest',
+          title: '休息',
+          onClick: function(oml2d) {
+            console.log('点击了休息');
+            // 隐藏模型的可点击区域
+            oml2d.stageSlideOut();
+            oml2d.reloadModel();
+          }
+        },
+        {
+          id: 'SwitchModel',
+          icon: 'icon-switch',
+          title: '切换模型',
+          onClick: function(oml2d) {
+            oml2d.loadNextModel().then(() => {
+            console.log('切换成功');
+            });
+          }
+        },
+        {
+          id: 'About',
+          icon: 'icon-about',
+          title: '关于',
+          onClick: function(oml2d) {
+            window.open('http://47.107.122.43:8023/');
+          }
+        }
+      ],
+      x: 10, // 菜单位置
+      y: 10 // 菜单位置
+    }
+  });
+</script>
 </body>
 
 </html>
