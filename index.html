@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-/* 添加返回顶部按钮样式 */
-    .back-to-top {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #333;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        cursor: pointer;
-        display: none;
-        z-index: 100;
-    }
 
-    .back-to-top.show {
-        display: block;
-    }
 <head>
     <meta charset="UTF-8">
     <title>Docsify-Guide</title>
@@ -44,6 +27,25 @@
      main{
         width:100%;
       }
+
+      /* 添加返回顶部按钮样式 */
+        .back-to-top { 
+            position: fixed; 
+            bottom: 20px;
+            right: 20px;
+            background-color: #333; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            display: none; 
+            z-index: 100;
+        }
+    
+        .back-to-top.show { 
+            display: block;  
+        }
     </style>
 </head>
 
