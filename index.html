@@ -78,43 +78,7 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script> 
-    <!-- 返回顶部按钮 -->
-    <button class="back-to-top" onclick="scrollToTop()">返回顶部</button>
-    <style>
-        /* 添加返回顶部按钮样式 */
-        .back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #333;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-            display: none; /* 初始状态为隐藏 */
-            z-index: 100;
-        }
-        .back-to-top.show {
-            display: block; /* 当页面滚动时显示按钮 */
-        }
-    </style>
-    <script>
-    function scrollToTop() {
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera 
-      document.body.scrollTop = 0; // For Safari
-    }
     
-    // 监听滚动事件
-    window.addEventListener('scroll', function() {
-      const button = document.querySelector('.back-to-top');
-      if (window.pageYOffset > 200) { // 当滚动超过200像素时显示按钮
-        button.classList.add('show');
-      } else {
-        button.classList.remove('show');
-      }
-    });
-    </script>
     <script src="https://unpkg.com/oh-my-live2d@latest"></script> 
     <script>
     OML2D.loadOml2d({  
