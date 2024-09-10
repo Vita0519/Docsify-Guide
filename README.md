@@ -2,7 +2,7 @@
 > 🐱‍🏍使用Typora+Docsify打造最强、最快捷、最轻量级的个人文档。
 
 ## 关于我
-- [myhalo博客地址](http://47.107.122.43:8023/) 
+- [myhalo博客地址](http://www.allfather.top/) 
 
 ## 个人信息
 
