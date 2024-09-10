@@ -1,7 +1,7 @@
 <!-- _navbar.md -->
 
 * 链接到我
-  * [关于本人](http://47.107.122.43:8023/)  
+  * [关于本人](http://www.allfather.top/)  
   * [Github地址](https://github.com/Vita0519) 
 
 
