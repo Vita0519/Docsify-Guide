@@ -120,11 +120,12 @@
           id: 'Rest',
           icon: 'icon-rest',
           title: '休息',
-          onClick: function(oml2d) {
-            console.log('点击了休息');
-            // 隐藏模型的可点击区域
-            oml2d.stageSlideOut();
-            // oml2d.reloadModel();  
+          onClick(i){var t;i.statusBarOpen((t=i.options.statusBar)==null?void 0:t.restMessage),
+            i.clearTips(),
+            i.setStatusBarClickEvent(()=>{
+            i.statusBarClose(),i.stageSlideIn(),i.statusBarClearEvents()
+            }),
+            i.stageSlideOut()
           }
         },
         {
