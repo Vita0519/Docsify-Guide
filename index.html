@@ -12,7 +12,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> 
     <!-- 默认主题 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"> 
     
     <style>
       nav.app-nav li ul {
@@ -40,7 +40,7 @@
             // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
             repo: 'https://github.com/Vita0519/',
             // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
-            loadSidebar: true,
+            loadSidebar: true, 
             // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
             loadNavbar: true,
             // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
@@ -55,7 +55,7 @@
             search: {
                 maxAge: 86400000,// 过期时间，单位毫秒，默认一天
                 paths: 'auto',// 注意：仅适用于 paths: 'auto' 模式
-                placeholder: '搜索',              
+                placeholder: '搜索',               
                 // 支持本地化
                 placeholder: {
                     '/zh-cn/': '搜索',
@@ -63,11 +63,11 @@
                 },
                 noData: '找不到结果',
                 depth: 4,
-                hideOtherSidebarContent: false,
-                namespace: 'Docsify-Guide',
+                hideOtherSidebarContent: false, 
+                namespace: 'Docsify-Guide', 
             }
         }
-    </script>
+    </script> 
     <!-- docsify的js依赖 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
     <!-- emoji表情支持 -->
@@ -79,40 +79,43 @@
     <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script> 
     
-    <script src="https://www.allfather.top/mol2d/index.min.js"></script> 
-    <script>
-    OML2D.loadOml2d({  
-    models: [ 
+   <script src="https://unpkg.com/oh-my-live2d@latest"></script>
+
+<script>
+  OML2D.loadOml2d({
+    models: [
       {
-        path: 'https://www.allfather.top/mol2d/models/shizuku/shizuku.model.json',
-        position: [0, 100],
-        scale: 0.15,
-        volume: 1, 
+        path: 'https://model.kisssssssss.space/https://raw.githubusercontent.com/kisssssssss/model/main/live2d/StarRail/%E7%AC%A6%E7%8E%84/%E7%AC%A6%E7%8E%84.model3.json',
+        position: [-20, 100],
+        scale: 0.04,
+        volume: 1,
         stageStyle: {
-          height: 450
+          height: 450,
+          width: 220
         }
       },
         {
-        path: 'https://www.allfather.top/mol2d/models/Senko_Normals/senko.model3.json',
-        position: [-40, 140], 
-        scale: 0.08,
+        path: 'https://model.kisssssssss.space/https://raw.githubusercontent.com/kisssssssss/model/main/live2d/shuangshengshijie/10qpt01__l2d_357.u/10qpt01__l2d_357.u.model3.json',
+        position: [-50, 90],
+        scale: 0.2,
         volume: 1,
         stageStyle: {
-          height: 400
+          height: 520,
+          width: 200
         }
       },
       {
-        "path": "https://www.allfather.top/mol2d/models/HK416-1-normal/model.json",
-        "position": [-20, 80],    
-        "scale": 0.06,
-        "volume": 1,
-        "stageStyle": {
-          "height": 450
+        path: "https://model.kisssssssss.space/https://raw.githubusercontent.com/kisssssssss/model/main/live2d/Azur/z46_2/z46_2.model3.json",
+        position: [-40, 90],
+        scale: 0.1,
+        volume: 1,
+        stageStyle: {
+          height: 350,
+          width: 200
         }
       }
     ],
     dockedPosition:"left",
-    // mobileDisplay: true,
     mobileDisplay: true, // 初始状态为显示
     menus: {
       items: [
@@ -143,13 +146,27 @@
           icon: 'icon-about',
           title: '关于',
           onClick: function(oml2d) {
-            window.open('http://www.allfather.top/');
+            window.open('http://www.allfather.top');
           }
         }
       ],
-      x: 10, // 菜单位置
+      x: 5, // 菜单位置
       y: 10 // 菜单位置
     }
+  });
+</script>
+<!-- f12禁用 -->
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey && event.keyCode === 73)) { // F12 或 Ctrl + Shift + I 
+      window.open('http://www.allfather.top');
+    }
+  }, false);
+</script>
+<!-- 禁用右键菜单 -->
+<script>
+  document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
   });
 </script>
 </body>
