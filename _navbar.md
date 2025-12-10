@@ -2,7 +2,8 @@
 
 * 链接到我
   * [关于本人](http://www.allfather.top/)  
-  * [Github地址](https://github.com/Vita0519) 
+  * [Github地址](https://github.com/Vita0519)
+  * [christmasTree](/christmasTree.html)
 
 * 友情链接
   * [Docsify](https://docsify.js.org/#/)
